@@ -35,7 +35,7 @@ let Z = "Z".charCodeAt(0);
 
 function rot13(encodedStr) {
   let decodedArr = []; // Your Result goes here
-  // Only change code below this line
+	
 	for(let i=0;i<encodedStr.length;i++)
 		{
 			let currentChar = encodedStr[i].charCodeat(0);
@@ -49,7 +49,7 @@ function rot13(encodedStr) {
 			}
 		}
 
-  return decodedArr; //return decodedArr
+  return decodedArr;
 }
 
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
